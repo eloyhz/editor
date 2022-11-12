@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,26 @@
     <title>Editor</title>
     <style>
         #editor {
-    position: absolute;
-    width: 500px;
-    height: 400px;
-}
+            position: absolute;
+            width: 500px;
+            height: 400px;
+        }
     </style>
 </head>
+
 <body>
-    <div id="editor">// Write your code here</div>
-<script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
-<script>
-    var editor = ace.edit("editor");
-    editor.getSession().setMode("ace/mode/c_cpp");
-</script>
+    <div id="editor">//
+// ¡¡ IMPORTANTE !!
+// Este editor NO guarda cambios ni tampoco hace envíos.
+// Es absolutamente necesario COPIAR Y PEGAR su código
+// en DidacTic para que pueda ser calificado.
+//
+</div>
+    <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor");
+        editor.getSession().setMode("ace/mode/c_cpp");
+    </script>
 </body>
+
 </html>
